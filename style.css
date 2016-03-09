@@ -1,3 +1,7 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .header-center {
   text-align: center;
   padding-bottom: 7px;
@@ -5,4 +9,37 @@
 
 p {
   font-size: 16px;
+}
+
+.navbar {
+  background-color: #16647A;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FCFCFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #6F8F8F;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+  color: #FF4B3E;
+}
+
+#home {
+  color: #FCFCFF;
+}
+
+#home:hover {
+  color: #6F8F8F;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#headshot {
+  margin-top: 7px;
 }
