@@ -57,3 +57,23 @@ h2 {
   width: 570px;
   height: 309px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill {
+  display: inline-block;
+  background-color: #464d57;
+  padding: 4px 8px;
+  color: #fff;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.skill:hover {
+  background-color: #703030;
+  box-shadow: 0 0 2px #9a9a9a;
+}
